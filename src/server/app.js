@@ -19,8 +19,8 @@ app.post('/', (req, res) => {
   if (!req.body.fullName || !req.body.companyUrl) {
     return res.status(400).send({ error: "Inputs are required" });
   }
-  const getResult = `${createEmailAddress(req.body.fullName, req.body.companyUrl)}`;
-  res.send(getResult);
+  const emailResult = createEmailAddress(req.body.fullName, req.body.companyUrl);
+  res.send(emailResult);
     
 });
 
