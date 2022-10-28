@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Email Guesser</title>
+</head>
+<body>
+  <div class="container" id="">
+    <div class="form-control">
+    <h1>Email Guesser</h1>
+      <form action="http://localhost:5000/" class="form" id="form" method="POST">
+        <div>
+          <label class="label-text" for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name (e.g. 'John Smith')">
+        </div> 
+        <div>
+          <label class="label-text" for="companyUrl">Company Url</label>
+          <input type="text" id="companyUrl" name="companyUrl" placeholder="Enter your company url (e.g. 'booking.com')">
+        </div>
+        <button type="submit" class="add-btn" id="addButton">Create Email</button>
+      </form>
+    <div id="emailList" class="email-list"></div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

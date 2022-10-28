@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(0, 45, 48);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.4rem;
+  width: 25rem;
+  height: 2rem;
+  background-color: rgb(0, 45, 48);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+email-list {
+  width: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(0, 67, 71);
+  width: 35rem;
+  border-radius: 15px;
+  overflow-wrap: break-word;
+  padding-top: 20px;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.add-btn {
+  align-self: center;
+  border: 0;
+  border-radius: 0.3rem;
+  background-color: rgb(180, 171, 35);
+  color: rgb(255, 255, 255);
+  padding: 0.4rem;
+  opacity: 0.8;
+  transition: 0.3s;
+  width: 25rem;
+  height: 2rem;
+  margin: 1rem 0 2rem 0;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.guessed-email {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(0, 45, 48);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  width: 25rem;
+  align-self: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.guessed-email-text {
+  display: inline-block;
+  overflow-wrap: break-word;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.label-text {
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+}
